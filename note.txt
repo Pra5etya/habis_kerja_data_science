@@ -3,6 +3,11 @@ step for machine learning:
 2. Model -> after preprocessing and choosing right model
 3. evaluate and tuning -> after model for accuracy model data
 
-usually for linear regression you can use r2_score -> evaluate and tuning
-usually for classifier you can use accuracy_score -> evaluate and tuning
-usually for cluster you can use silhoute_score -> evaluate and tuning
+Basic Packages
+======================
+usually for linear regression you can use r2_score -> evaluate
+usually for classifier you can use accuracy_score -> evaluate
+usually for cluster you can use silhoute_score -> evaluate
+
+konsisten suatu model bisa menggunakan cross_validation -> tuning model
+mencari hyper parameter bisa menggunakan gridSearchCH / RandomizedSearchCV -> tuning input model
